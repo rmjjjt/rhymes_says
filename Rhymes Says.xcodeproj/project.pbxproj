@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F30642611FD8819C0053614D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F30642601FD8819B0053614D /* Default-568h@2x.png */; };
+		F37327B11FD8872F004C96BB /* CircularButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37327B01FD8872F004C96BB /* CircularButton.swift */; };
 		F37DFFAA1FD7E0ED001AF05A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37DFFA91FD7E0ED001AF05A /* AppDelegate.swift */; };
 		F37DFFAC1FD7E0ED001AF05A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37DFFAB1FD7E0ED001AF05A /* ViewController.swift */; };
 		F37DFFAF1FD7E0ED001AF05A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F37DFFAD1FD7E0ED001AF05A /* Main.storyboard */; };
@@ -34,17 +36,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F37DFFA61FD7E0ED001AF05A /* Rhymsey Says.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rhymsey Says.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F30642601FD8819B0053614D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F37327B01FD8872F004C96BB /* CircularButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularButton.swift; sourceTree = "<group>"; };
+		F37DFFA61FD7E0ED001AF05A /* Rhymes Says.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rhymes Says.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F37DFFA91FD7E0ED001AF05A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F37DFFAB1FD7E0ED001AF05A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F37DFFAE1FD7E0ED001AF05A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F37DFFB01FD7E0ED001AF05A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F37DFFB31FD7E0EE001AF05A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F37DFFB51FD7E0EE001AF05A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F37DFFBA1FD7E0EE001AF05A /* Rhymsey SaysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rhymsey SaysTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F37DFFBA1FD7E0EE001AF05A /* Rhymes SaysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rhymes SaysTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F37DFFBE1FD7E0EE001AF05A /* Rhymsey_SaysTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rhymsey_SaysTests.swift; sourceTree = "<group>"; };
 		F37DFFC01FD7E0EE001AF05A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F37DFFC51FD7E0EE001AF05A /* Rhymsey SaysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rhymsey SaysUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F37DFFC51FD7E0EE001AF05A /* Rhymes SaysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rhymes SaysUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F37DFFC91FD7E0EE001AF05A /* Rhymsey_SaysUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rhymsey_SaysUITests.swift; sourceTree = "<group>"; };
 		F37DFFCB1FD7E0EE001AF05A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,9 +81,10 @@
 		F37DFF9D1FD7E0ED001AF05A = {
 			isa = PBXGroup;
 			children = (
-				F37DFFA81FD7E0ED001AF05A /* Rhymsey Says */,
-				F37DFFBD1FD7E0EE001AF05A /* Rhymsey SaysTests */,
-				F37DFFC81FD7E0EE001AF05A /* Rhymsey SaysUITests */,
+				F30642601FD8819B0053614D /* Default-568h@2x.png */,
+				F37DFFA81FD7E0ED001AF05A /* Rhymes Says */,
+				F37DFFBD1FD7E0EE001AF05A /* Rhymes SaysTests */,
+				F37DFFC81FD7E0EE001AF05A /* Rhymes SaysUITests */,
 				F37DFFA71FD7E0ED001AF05A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,14 +92,14 @@
 		F37DFFA71FD7E0ED001AF05A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F37DFFA61FD7E0ED001AF05A /* Rhymsey Says.app */,
-				F37DFFBA1FD7E0EE001AF05A /* Rhymsey SaysTests.xctest */,
-				F37DFFC51FD7E0EE001AF05A /* Rhymsey SaysUITests.xctest */,
+				F37DFFA61FD7E0ED001AF05A /* Rhymes Says.app */,
+				F37DFFBA1FD7E0EE001AF05A /* Rhymes SaysTests.xctest */,
+				F37DFFC51FD7E0EE001AF05A /* Rhymes SaysUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F37DFFA81FD7E0ED001AF05A /* Rhymsey Says */ = {
+		F37DFFA81FD7E0ED001AF05A /* Rhymes Says */ = {
 			isa = PBXGroup;
 			children = (
 				F37DFFA91FD7E0ED001AF05A /* AppDelegate.swift */,
@@ -103,34 +108,35 @@
 				F37DFFB01FD7E0ED001AF05A /* Assets.xcassets */,
 				F37DFFB21FD7E0EE001AF05A /* LaunchScreen.storyboard */,
 				F37DFFB51FD7E0EE001AF05A /* Info.plist */,
+				F37327B01FD8872F004C96BB /* CircularButton.swift */,
 			);
-			path = "Rhymsey Says";
+			path = "Rhymes Says";
 			sourceTree = "<group>";
 		};
-		F37DFFBD1FD7E0EE001AF05A /* Rhymsey SaysTests */ = {
+		F37DFFBD1FD7E0EE001AF05A /* Rhymes SaysTests */ = {
 			isa = PBXGroup;
 			children = (
 				F37DFFBE1FD7E0EE001AF05A /* Rhymsey_SaysTests.swift */,
 				F37DFFC01FD7E0EE001AF05A /* Info.plist */,
 			);
-			path = "Rhymsey SaysTests";
+			path = "Rhymes SaysTests";
 			sourceTree = "<group>";
 		};
-		F37DFFC81FD7E0EE001AF05A /* Rhymsey SaysUITests */ = {
+		F37DFFC81FD7E0EE001AF05A /* Rhymes SaysUITests */ = {
 			isa = PBXGroup;
 			children = (
 				F37DFFC91FD7E0EE001AF05A /* Rhymsey_SaysUITests.swift */,
 				F37DFFCB1FD7E0EE001AF05A /* Info.plist */,
 			);
-			path = "Rhymsey SaysUITests";
+			path = "Rhymes SaysUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F37DFFA51FD7E0ED001AF05A /* Rhymsey Says */ = {
+		F37DFFA51FD7E0ED001AF05A /* Rhymes Says */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F37DFFCE1FD7E0EE001AF05A /* Build configuration list for PBXNativeTarget "Rhymsey Says" */;
+			buildConfigurationList = F37DFFCE1FD7E0EE001AF05A /* Build configuration list for PBXNativeTarget "Rhymes Says" */;
 			buildPhases = (
 				F37DFFA21FD7E0ED001AF05A /* Sources */,
 				F37DFFA31FD7E0ED001AF05A /* Frameworks */,
@@ -140,14 +146,14 @@
 			);
 			dependencies = (
 			);
-			name = "Rhymsey Says";
+			name = "Rhymes Says";
 			productName = "Rhymsey Says";
-			productReference = F37DFFA61FD7E0ED001AF05A /* Rhymsey Says.app */;
+			productReference = F37DFFA61FD7E0ED001AF05A /* Rhymes Says.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F37DFFB91FD7E0EE001AF05A /* Rhymsey SaysTests */ = {
+		F37DFFB91FD7E0EE001AF05A /* Rhymes SaysTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F37DFFD11FD7E0EE001AF05A /* Build configuration list for PBXNativeTarget "Rhymsey SaysTests" */;
+			buildConfigurationList = F37DFFD11FD7E0EE001AF05A /* Build configuration list for PBXNativeTarget "Rhymes SaysTests" */;
 			buildPhases = (
 				F37DFFB61FD7E0EE001AF05A /* Sources */,
 				F37DFFB71FD7E0EE001AF05A /* Frameworks */,
@@ -158,14 +164,14 @@
 			dependencies = (
 				F37DFFBC1FD7E0EE001AF05A /* PBXTargetDependency */,
 			);
-			name = "Rhymsey SaysTests";
+			name = "Rhymes SaysTests";
 			productName = "Rhymsey SaysTests";
-			productReference = F37DFFBA1FD7E0EE001AF05A /* Rhymsey SaysTests.xctest */;
+			productReference = F37DFFBA1FD7E0EE001AF05A /* Rhymes SaysTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F37DFFC41FD7E0EE001AF05A /* Rhymsey SaysUITests */ = {
+		F37DFFC41FD7E0EE001AF05A /* Rhymes SaysUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F37DFFD41FD7E0EE001AF05A /* Build configuration list for PBXNativeTarget "Rhymsey SaysUITests" */;
+			buildConfigurationList = F37DFFD41FD7E0EE001AF05A /* Build configuration list for PBXNativeTarget "Rhymes SaysUITests" */;
 			buildPhases = (
 				F37DFFC11FD7E0EE001AF05A /* Sources */,
 				F37DFFC21FD7E0EE001AF05A /* Frameworks */,
@@ -176,9 +182,9 @@
 			dependencies = (
 				F37DFFC71FD7E0EE001AF05A /* PBXTargetDependency */,
 			);
-			name = "Rhymsey SaysUITests";
+			name = "Rhymes SaysUITests";
 			productName = "Rhymsey SaysUITests";
-			productReference = F37DFFC51FD7E0EE001AF05A /* Rhymsey SaysUITests.xctest */;
+			productReference = F37DFFC51FD7E0EE001AF05A /* Rhymes SaysUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +213,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F37DFFA11FD7E0ED001AF05A /* Build configuration list for PBXProject "Rhymsey Says" */;
+			buildConfigurationList = F37DFFA11FD7E0ED001AF05A /* Build configuration list for PBXProject "Rhymes Says" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -220,9 +226,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F37DFFA51FD7E0ED001AF05A /* Rhymsey Says */,
-				F37DFFB91FD7E0EE001AF05A /* Rhymsey SaysTests */,
-				F37DFFC41FD7E0EE001AF05A /* Rhymsey SaysUITests */,
+				F37DFFA51FD7E0ED001AF05A /* Rhymes Says */,
+				F37DFFB91FD7E0EE001AF05A /* Rhymes SaysTests */,
+				F37DFFC41FD7E0EE001AF05A /* Rhymes SaysUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F37DFFB41FD7E0EE001AF05A /* LaunchScreen.storyboard in Resources */,
+				F30642611FD8819C0053614D /* Default-568h@2x.png in Resources */,
 				F37DFFB11FD7E0ED001AF05A /* Assets.xcassets in Resources */,
 				F37DFFAF1FD7E0ED001AF05A /* Main.storyboard in Resources */,
 			);
@@ -261,6 +268,7 @@
 			files = (
 				F37DFFAC1FD7E0ED001AF05A /* ViewController.swift in Sources */,
 				F37DFFAA1FD7E0ED001AF05A /* AppDelegate.swift in Sources */,
+				F37327B11FD8872F004C96BB /* CircularButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,12 +293,12 @@
 /* Begin PBXTargetDependency section */
 		F37DFFBC1FD7E0EE001AF05A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F37DFFA51FD7E0ED001AF05A /* Rhymsey Says */;
+			target = F37DFFA51FD7E0ED001AF05A /* Rhymes Says */;
 			targetProxy = F37DFFBB1FD7E0EE001AF05A /* PBXContainerItemProxy */;
 		};
 		F37DFFC71FD7E0EE001AF05A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F37DFFA51FD7E0ED001AF05A /* Rhymsey Says */;
+			target = F37DFFA51FD7E0ED001AF05A /* Rhymes Says */;
 			targetProxy = F37DFFC61FD7E0EE001AF05A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -427,9 +435,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Rhymsey Says/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Rhymes Says/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.triplejdeveloping.Rhymsey-Says";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.triplejdeveloping.Rhymes-Says";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -441,9 +449,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Rhymsey Says/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Rhymes Says/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.triplejdeveloping.Rhymsey-Says";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.triplejdeveloping.Rhymes-Says";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -462,7 +470,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rhymsey Says.app/Rhymsey Says";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rhymes Says.app/Rhymes Says";
 			};
 			name = Debug;
 		};
@@ -478,7 +486,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rhymsey Says.app/Rhymsey Says";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rhymes Says.app/Rhymes Says";
 			};
 			name = Release;
 		};
@@ -515,7 +523,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F37DFFA11FD7E0ED001AF05A /* Build configuration list for PBXProject "Rhymsey Says" */ = {
+		F37DFFA11FD7E0ED001AF05A /* Build configuration list for PBXProject "Rhymes Says" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F37DFFCC1FD7E0EE001AF05A /* Debug */,
@@ -524,7 +532,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F37DFFCE1FD7E0EE001AF05A /* Build configuration list for PBXNativeTarget "Rhymsey Says" */ = {
+		F37DFFCE1FD7E0EE001AF05A /* Build configuration list for PBXNativeTarget "Rhymes Says" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F37DFFCF1FD7E0EE001AF05A /* Debug */,
@@ -533,7 +541,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F37DFFD11FD7E0EE001AF05A /* Build configuration list for PBXNativeTarget "Rhymsey SaysTests" */ = {
+		F37DFFD11FD7E0EE001AF05A /* Build configuration list for PBXNativeTarget "Rhymes SaysTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F37DFFD21FD7E0EE001AF05A /* Debug */,
@@ -542,7 +550,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F37DFFD41FD7E0EE001AF05A /* Build configuration list for PBXNativeTarget "Rhymsey SaysUITests" */ = {
+		F37DFFD41FD7E0EE001AF05A /* Build configuration list for PBXNativeTarget "Rhymes SaysUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F37DFFD51FD7E0EE001AF05A /* Debug */,
